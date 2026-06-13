@@ -25,14 +25,14 @@ id_pattern = re.compile(r'^.\d+$')
 class Config(object):
     # roxy_bot client config
     # API credentials from Telegram (get from my.telegram.org)
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = os.environ.get("API_ID", "27806628")
+    API_HASH = os.environ.get("API_HASH", "25d88301e886b82826a525b7cf52e090")
     # Bot token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8712452049:AAH3QTR1VmcoVqmHwBSj7kNiVmW7xxX69Mc") 
     BOT = None
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQGoS6QAj7pinQ-jcRpqkFI9KgcXXSCpfB9nmJH045EIFVfw1kJpS8xabTPjg--HMJMK7vx_ujiTWPUdbtW0vD4WTHXav6CbMRpjFU3oqugsvGNU0xOHAU8tOXsDtVvdkrC1qQJ0MaFcIcDFnyHGCbwfRrQjiHhTQxSColpjqkdsyU1CiXX9tsZCz4L4SsGjYdEYMEx-0p2fRnQXBHzODmWQqYGW_dDX-a_vZajWbMfdh3j603k7XqvFz89xsaWSuZrafDgS_Tsi2SrfKOb3lPqJa91H3t4Dg0KobDlpocJjg9oQoITSMpAFFVAWacegy5irITN_XlNFiEOOYtDVS-b0Hx1OeAAAAAG5eFZoAA")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Roxy_Rename_Bot")     
@@ -47,7 +47,7 @@ class Config(object):
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
     
     # Log channel for bot tracking events
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "0"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003559364122"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 2147483648 # calculation 2*1024*1024*1024=results
@@ -99,7 +99,7 @@ class Config(object):
     AUTO_DELETE_HOURS = int(os.environ.get("AUTO_DELETE_HOURS", "4"))  # 4 hours
     
     # Contact bot for ban appeals  
-    CONTACT_BOT = os.environ.get("CONTACT_BOT", "@roxycontactbot")
+    CONTACT_BOT = os.environ.get("CONTACT_BOT", "@White_444w")
     
     #force subs
     try:
