@@ -32,7 +32,7 @@ class Config(object):
     BOT = None
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "BQGoS6QAj7pinQ-jcRpqkFI9KgcXXSCpfB9nmJH045EIFVfw1kJpS8xabTPjg--HMJMK7vx_ujiTWPUdbtW0vD4WTHXav6CbMRpjFU3oqugsvGNU0xOHAU8tOXsDtVvdkrC1qQJ0MaFcIcDFnyHGCbwfRrQjiHhTQxSColpjqkdsyU1CiXX9tsZCz4L4SsGjYdEYMEx-0p2fRnQXBHzODmWQqYGW_dDX-a_vZajWbMfdh3j603k7XqvFz89xsaWSuZrafDgS_Tsi2SrfKOb3lPqJa91H3t4Dg0KobDlpocJjg9oQoITSMpAFFVAWacegy5irITN_XlNFiEOOYtDVS-b0Hx1OeAAAAAG5eFZoAA")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Roxy_Rename_Bot")     
